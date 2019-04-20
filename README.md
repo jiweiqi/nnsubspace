@@ -8,5 +8,3 @@ It contains the code / model / datasets for the MNIST datasets using LeNet which
 Example codes can be found in subspace_per_sample.py for MNIST/cifar10/cifar100, and subspace_per_sample_imagenet.py for ImageNet. The datasets of MNIST, cifar10 and cifar100 can be readily accessed via keras functions. The ImageNet dataset can be downloaded from the official site and you can start from the validation datasets.
 
 Feel free to contact me at jwq14@mails.tsinghua.edu.cn (Weiqi_Ji) if you have any question, suggestion, comment and future collabration.
-
-Cheers!
