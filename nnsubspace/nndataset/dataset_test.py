@@ -4,4 +4,4 @@ from __future__ import print_function
 
 from dataset import Dataset
 
-dataset_ = Dataset('imagenet')
+dataset_ = Dataset(dataset_name='imagenet')
