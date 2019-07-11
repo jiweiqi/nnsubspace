@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -10,7 +7,7 @@ from keras import backend as K
 
 
 class NNModel:
-    def __init__(self, dataset_name, model_id=0):
+    def __init__(self, dataset_name='mnist', model_id=0):
         self.model_file = []
         self.model = []
 
