@@ -22,6 +22,7 @@ def imshow(x, figsize=None):
 def eigenplot(w, num_eigenvalue, figsize=None):
     if figsize is None:
         figsize = (5, 5)
+
     plt.figure(figsize=figsize)
     plt.semilogy(range(num_eigenvalue), w[0:num_eigenvalue]**2, '-o')
     plt.xlabel('index')
@@ -32,6 +33,7 @@ def eigenplot(w, num_eigenvalue, figsize=None):
 def eigenvectorplot(eigenvector, figsize=None):
     if figsize is None:
         figsize = (5, 5)
+
     plt.figure(figsize=figsize)
     ax = plt.axes([0, 0, 1, 1], frameon=False)
     ax.get_xaxis().set_visible(False)
@@ -45,6 +47,7 @@ def eigenvectorplot(eigenvector, figsize=None):
 def summaryplot(xv, y, poly1d, figsize=None):
     if figsize is None:
         figsize = (5, 5)
+
     plt.figure(figsize=figsize)
     plt.plot(xv, y, 'o')
     plt.plot(np.sort(xv), poly1d(np.sort(xv)), '-')
